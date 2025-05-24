@@ -1,7 +1,7 @@
 FROM maven:3-amazoncorretto-21 as builder
 LABEL authors="Fabricio"
 
-WORKDIR /
+WORKDIR /build
 
 COPY . .
 
