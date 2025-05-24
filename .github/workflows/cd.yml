@@ -15,4 +15,4 @@ jobs:
         run: docker rm -f kotlin || true
 
       - name: Rodando container
-        run: docker run --name kotlin -d -p 8080:8080 ${{ secrets.DOCKERHUB_USERNAME }}/kotlin:latest
+        run: docker run --name kotlin -d -p 8080:8080 ${{ secrets.DOCKERHUB_USERNAME }}/kotlin:lastest
