@@ -68,4 +68,4 @@ jobs:
           context: ./calcular-inss
           file: ./calcular-inss/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/kotlin:v2
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/kotlin:v3
